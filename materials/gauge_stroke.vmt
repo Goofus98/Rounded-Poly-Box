@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "gauge_stroke"
+	"$vertexcolor" 		1
+	"$vertexalpha" 		1
+}
