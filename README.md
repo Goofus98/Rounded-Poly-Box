@@ -12,7 +12,7 @@ u & v are for uv tiling & cache makes the function return a table of the calcula
 u & v are for uv tiling & cache makes the function return a table
 of the calculated shape (use whenever you can for better performance).]]--
 
-draw.RoundedPolyBoxEX( radius, x, y, w, h, prec, u, v, tl, tr, bl, br, cache )
+draw.RoundedPolyBoxEX( radius, x, y, w, h, prec, u=1, v=1, tl=true, tr=true, bl=true, br=true, cache=false )
 ```
 Cache usage:
 ```Lua
@@ -32,7 +32,7 @@ This compliments Poly Box by creating an outline around it, but you can use it f
 Extrude defines the outline width. u & v are for uv tiling, u_offset &
 v_offset take a value from -1 to 1.]]--
 
-draw.RoundedPolyBorderEX( radius, extrude, x, y, w, h, prec, u, v, u_offset, v_offset, tl, tr, bl, br, cache )
+draw.RoundedPolyBorderEX( radius, extrude, x, y, w, h, prec, u=1, v=1, u_offset=0, v_offset=0, tl=true, tr=true, bl=true, br=true, cache=false )
 ```
 Cache usage:
 
